@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/devRepo/clientlibs"/>
+    <filter root="/apps/devRepo/components"/>
+    <filter root="/apps/devRepo/i18n"/>
+    <filter root="/apps/msm/devRepo_blueprint" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,18 @@
+<div class="create-page-form">
+  <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.all @ categories='microsoftbenefitsprogram.components.createpage'}"></sly>
+  </sly>
+
+  <form id="createPageForm">
+
+    <label for="filePath">Enter DAM Path:</label>
+    <input type="text" id="filePath" placeholder="Enter DAM path" /><br /><br />
+
+    <label for="authKey">Auth Key:</label>
+    <input type="Password" id="authKey" placeholder="Enter the Key" /><br /><br />
+
+    <button type="submit" id="submitBtn">Create Page</button>
+  </form>
+
+  <p id="responseText" style="margin-top: 20px; color: green;"></p>
+</div>
