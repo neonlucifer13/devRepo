@@ -89,7 +89,11 @@ Import-Package: javax.annotation;version=0.0.0,*
         <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>aem-sdk-api</artifactId>
+            <version>2024.11.18598.20241113T125352Z-241100</version>
+            <scope>provided</scope>
         </dependency>
+
+
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.core</artifactId>
